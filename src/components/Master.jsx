@@ -7,7 +7,9 @@ function Master() {
             <div className="head">
                 <Link to="/" >Main</Link>
                 <Link to="/temperature" >Weather Page</Link>
-                
+                <Link to="/temperature" onClick={() => setMode("population")}>
+                          Population
+                        </Link>
                 <br></br>
                 <h3>Welcome to API access via axias!!!!</h3>
             </div>
